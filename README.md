@@ -1,5 +1,5 @@
 # Toxic Comments Detection using Deep Learning
-##  Sequential Model using Pyhton
+##  KERAS Sequential Model using Python
 
 ![Image](https://imgur.com/SzC5WSF.jpg)
 
