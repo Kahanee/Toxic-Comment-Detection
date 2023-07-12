@@ -10,9 +10,9 @@ This GitHub repository showcases a deep learning approach for toxic comment dete
 Data source : ( https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge/data )
 
 ### Data Pre-processing:
-- [Stopwords][df1]  punctuation, and case sensitivity have been eliminated to enhance the quality of the text data.
+- [Stopwords]  punctuation, and case sensitivity have been eliminated to enhance the quality of the text data.
 ![Image](https://imgur.com/DRIfwvw.jpg)
-- [Word stemming][df1] techniques have been employed to normalize the words within the comments. Stemming reduces words to their base or root form, allowing for better generalization and reducing the vocabulary size.
+- [Word stemming] techniques have been employed to normalize the words within the comments. Stemming reduces words to their base or root form, allowing for better generalization and reducing the vocabulary size.
 - Comprehensive data cleaning techniques have been implemented, ensuring the identification and rectification of null or empty values.
 - Measures have been taken to detect and handle duplicate data instances effectively.
 ![Image](https://imgur.com/e7zyqex.jpg)
@@ -50,9 +50,9 @@ Sample of Dataframe after cleaning:
 
 ### Data Preparation:
 
-- [Vectorization][df1] process: To represent the textual data numerically, vectorization techniques have been applied. This process involves converting the tokens or words into numerical vectors that capture their semantic meaning. Common approaches include one-hot encoding and word embeddings.
+- [Vectorization] process: To represent the textual data numerically, vectorization techniques have been applied. This process involves converting the tokens or words into numerical vectors that capture their semantic meaning. Common approaches include one-hot encoding and word embeddings.
 ![Image](https://imgur.com/8QnJdYj.jpg)
-- [Sequential Model][df1]: The deep learning model implemented in this project follows a sequential architecture. A sequential model consists of a linear stack of layers, where each layer communicates directly with the adjacent layers. This architecture allows for the capture of complex patterns and dependencies within the text data.
+- [Sequential Model]: The deep learning model implemented in this project follows a sequential architecture. A sequential model consists of a linear stack of layers, where each layer communicates directly with the adjacent layers. This architecture allows for the capture of complex patterns and dependencies within the text data.
 - ![Image](https://imgur.com/z246rEI.jpg)
 
 ### Model Architecture:
