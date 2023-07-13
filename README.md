@@ -19,6 +19,7 @@ Data source : ( https://www.kaggle.com/competitions/jigsaw-toxic-comment-classif
 **Data Correlation:**
 Before the data pre-processing :
 ![Image](https://imgur.com/6uTffic.jpg)
+
 After the data pre- processing :
 ![Image](https://imgur.com/SqdDsnS.jpg)
 
@@ -80,3 +81,5 @@ The primary objective of creating this model is to combat toxic comments in onli
 2. **Content Moderation:** Online platforms can utilize these models to automate content moderation, saving time and resources by swiftly identifying and flagging toxic comments.
 3. **Community Building:** By actively monitoring and managing toxic comments, online communities can foster a more positive and constructive atmosphere, encouraging healthy discussions and interactions.
 4. **Protecting Vulnerable Individuals:** Toxic comment detection models play a crucial role in safeguarding vulnerable individuals, reducing the potential impact of cyberbullying and hate speech
+
+My Linkdln Profile : (https://www.linkedin.com/in/sailaja-begum/)
