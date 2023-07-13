@@ -62,6 +62,8 @@ Data Pipeline :
 ![Image](https://imgur.com/IqsWoFT.jpg)
 ![Image](https://imgur.com/iiAwtS7.jpg)
 
+**Visualization of the Training result:**
+![Image](https://imgur.com/K1D8SUq.jpg)
 
 ### Importance and Objectives:
 The primary objective of creating this model is to combat toxic comments in online platforms. Toxic comments can lead to harmful effects such as cyberbullying, harassment, and the spread of hate speech. By developing an accurate toxic comment detection model, online platforms can better protect their users by identifying and removing toxic content promptly.
