@@ -10,19 +10,22 @@ This GitHub repository showcases a deep learning approach for toxic comment dete
 Data source : ( https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge/data )
 
 ### Data Pre-processing:
+
 - **Stopwords** punctuation, and case sensitivity have been eliminated to enhance the quality of the text data.
-- 
-![Image](https://imgur.com/DRIfwvw.jpg)
+![Image](https://imgur.com/DRIfwvw.jpg
+
 - **Word stemming** techniques have been employed to normalize the words within the comments. Stemming reduces words to their base or root form, allowing for better generalization and reducing the vocabulary size.
+  
 - Comprehensive data cleaning techniques have been implemented, ensuring the identification and rectification of null or empty values.
 - Measures have been taken to detect and handle duplicate data instances effectively.
 ![Image](https://imgur.com/e7zyqex.jpg)
 **Data Correlation:**
   
-Before the data pre-processing :
+**Before the data pre-processing :**
+
 ![Image](https://imgur.com/6uTffic.jpg)
 
-After the data pre- processing :
+**After the data pre- processing :**
 
 ![Image](https://imgur.com/SqdDsnS.jpg)
 
@@ -37,27 +40,35 @@ After the data pre- processing :
 The dataset presents several challenges, featuring a single column containing comments in text format. The comments are classified into five distinct toxic comment types: 'toxic', 'severely-toxic', 'obscene', 'threat', 'insult', and 'identity_hate'. These labels are represented in binary form.
 ![Image](https://imgur.com/b5o52Gs.jpg)
 
-Original Data size :
+**Original Data size :**
+
 ![Image](https://imgur.com/uXBFYQZ.jpg)
 
-Data size after Balancing done :
+**Data size after Balancing done :**
+
 ![Image](https://imgur.com/azxW74w.jpg)
 
-Comment text lenght:
+**Comment text lenght:**
+
 ![Image](https://imgur.com/7Wyhapi.jpg)
 
-Sample of Dataframe before cleaning :
+**Sample of Dataframe before cleaning :**
+
 ![Image](https://imgur.com/jKVCmZK.jpg)
 
-Sample of Dataframe after cleaning:
+**Sample of Dataframe after cleaning:**
+
 ![Image](https://imgur.com/MEzK91j.jpg)
 
 
 ### Data Preparation:
 
 - [Vectorization] process: To represent the textual data numerically, vectorization techniques have been applied. This process involves converting the tokens or words into numerical vectors that capture their semantic meaning. Common approaches include one-hot encoding and word embeddings.
-![Image](https://imgur.com/8QnJdYj.jpg)
+  
+![Image](https://imgur.com/8QnJdYj.jpg
+
 - [Sequential Model]: The deep learning model implemented in this project follows a sequential architecture. A sequential model consists of a linear stack of layers, where each layer communicates directly with the adjacent layers. This architecture allows for the capture of complex patterns and dependencies within the text data.
+  
 - ![Image](https://imgur.com/z246rEI.jpg)
 
 ### Model Architecture:
