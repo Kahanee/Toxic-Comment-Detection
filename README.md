@@ -10,17 +10,20 @@ This GitHub repository showcases a deep learning approach for toxic comment dete
 Data source : ( https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge/data )
 
 ### Data Pre-processing:
-- [Stopwords]  punctuation, and case sensitivity have been eliminated to enhance the quality of the text data.
+- **Stopwords** punctuation, and case sensitivity have been eliminated to enhance the quality of the text data.
+- 
 ![Image](https://imgur.com/DRIfwvw.jpg)
-- [Word stemming] techniques have been employed to normalize the words within the comments. Stemming reduces words to their base or root form, allowing for better generalization and reducing the vocabulary size.
+- **Word stemming** techniques have been employed to normalize the words within the comments. Stemming reduces words to their base or root form, allowing for better generalization and reducing the vocabulary size.
 - Comprehensive data cleaning techniques have been implemented, ensuring the identification and rectification of null or empty values.
 - Measures have been taken to detect and handle duplicate data instances effectively.
 ![Image](https://imgur.com/e7zyqex.jpg)
 **Data Correlation:**
+  
 Before the data pre-processing :
 ![Image](https://imgur.com/6uTffic.jpg)
 
 After the data pre- processing :
+
 ![Image](https://imgur.com/SqdDsnS.jpg)
 
 **Relationship between Categories label at 1 glance:** 
@@ -42,6 +45,7 @@ Data size after Balancing done :
 
 Comment text lenght:
 ![Image](https://imgur.com/7Wyhapi.jpg)
+
 Sample of Dataframe before cleaning :
 ![Image](https://imgur.com/jKVCmZK.jpg)
 
