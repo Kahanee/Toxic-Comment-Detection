@@ -65,7 +65,7 @@ The dataset presents several challenges, featuring a single column containing co
 
 - [Vectorization] process: To represent the textual data numerically, vectorization techniques have been applied. This process involves converting the tokens or words into numerical vectors that capture their semantic meaning. Common approaches include one-hot encoding and word embeddings.
   
-![Image](https://imgur.com/8QnJdYj.jpg
+![Image](https://imgur.com/8QnJdYj.jpg)
 
 - [Sequential Model]: The deep learning model implemented in this project follows a sequential architecture. A sequential model consists of a linear stack of layers, where each layer communicates directly with the adjacent layers. This architecture allows for the capture of complex patterns and dependencies within the text data.
   
