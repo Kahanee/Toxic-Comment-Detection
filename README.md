@@ -12,7 +12,7 @@ Data source : ( https://www.kaggle.com/competitions/jigsaw-toxic-comment-classif
 ### Data Pre-processing:
 
 - **Stopwords** punctuation, and case sensitivity have been eliminated to enhance the quality of the text data.
-![Image](https://imgur.com/DRIfwvw.jpg
+![Image](https://imgur.com/DRIfwvw.jpg)
 
 - **Word stemming** techniques have been employed to normalize the words within the comments. Stemming reduces words to their base or root form, allowing for better generalization and reducing the vocabulary size.
   
